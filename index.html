@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mr. Clean Up</title>
+
+    <!-- Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <h1>Mr. Clean-up!</h1>
+      <p> Want to clean all that pesky markup and get the raw text.  Just drop your marked-up text in the left box and hit the button.  What you will be left with on the right is a just the text.</p>
+    </header>
+    <article>
+      <div class="row">
+        <div class="col-md-6">
+          <label> Markup </label>
+          <textarea class="form-control input" rows="10" cols="50"></textarea>
+          <button class="btn btn-default clean-up"> Clean Up </button>
+        </div>
+        <div class="col-md-6">
+          <label> Plain Text </label>
+          <textarea class="form-control output" rows="10" cols="50"></textarea>
+        </div>
+      </div>
+    </article>
+    <footer> Created using <a href='https://github.com/epeli/underscore.string'> Underscore.string </a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/underscore.string/dist/underscore.string.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

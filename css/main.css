@@ -1,0 +1,16 @@
+header, footer{
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+header{
+	background-color: #424254;
+	color:white;
+}
+footer{
+	margin-top: 10px;
+}
+article{
+	padding-left: 5%;
+	padding-right: 5%;
+}
